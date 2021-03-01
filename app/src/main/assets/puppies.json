@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Bronson",
+    "img": "https://g.petango.com/photos/1145/78eb39b0-157a-4540-b39b-c8267400a056.jpg",
+    "bio": "I’m a curious pup looking for adopters who will commit to continuing my puppy education and socialization. Ready for a home with snuggles and playtime and lots of puppy-love, I would love to attend puppy socials and meet other young dogs to grow in skills and confidence. Contact the adoption center to get more information about adopting me!",
+    "age": "2m",
+    "weight": "2lbs 3oz",
+    "gender": "Male",
+    "breed": "Mix Terrier, American Pit Bull"
+  },
+  {
+    "id": 2,
+    "name": "Tofer",
+    "img": "https://g.petango.com/photos/1145/23fb4d78-e974-4516-99f4-a1fbc1ce06dc.jpg",
+    "bio": "He is a little fellow with loads of spunk. Say hello to Tofer, a sweet boy who is new to the big city and still adjusting to it. While he can be a little shy at times, especially on busy streets, he more than makes up for it with his personality. Tofer will greet you with a wagging tail and make you feel welcome. He enjoys the company of other small dogs and they have a grand time running around together. He is a good leash walker, but he does prefer quieter streets to be on. Each day will be loads of fun when he is in your home. If you are interested in meeting Tofer, please fill out the online pre-adoption form today.",
+    "age": "3y",
+    "weight": "13lbs 3oz",
+    "gender": "Male",
+    "breed": "Chihuahua, Short Coat Mix"
+  },
+  {
+    "id": 3,
+    "name": "Remy",
+    "img": "https://g.petango.com/photos/1145/dacd3d01-3991-43d6-8c68-95519703c45e.jpg",
+    "bio": "He’s energetic and extremely handsome. This is Remy. This young fella is eager to frolic around in the park. He doesn’t even mind if there are others frolicking on the other side of the fence. He’s not yet 100% comfortable with doorways, but he likes being on either side of them. He’s getting more confident each day and is enjoying the time he gets to hang out with folks. Remy is hoping his adopters come meet him soon, as he can’t wait to make himself comfortable in a home. Is that home yours? Please fill out the pre-adoption interest form if you’d like to learn more about Remy.",
+    "age": "1y",
+    "weight": "48lbs 8oz",
+    "gender": "Male",
+    "breed": "Mix Shepherd"
+  },
+  {
+    "id": 4,
+    "name": "Dante",
+    "img": "https://g.petango.com/photos/1145/caec4f1e-b886-4019-ab6e-d203a3de1de9.jpg",
+    "bio": "You will experience an inferno of love when you get to meet Dante. This sweet boy thrives on getting attention. He is always ready for lots of pets and he just gets so happy that he is grinning ear to ear as you pet him. Dante is a smart fellow and he already knows the command “sit”. He probably knows others and we just don’t know about them yet. He is happy to take treats and he is a big fan of ham if you have any to spare. This delightful boy is waiting to meet you. If you are interested in meeting Dante, please fill out the online pre-adoption form today.",
+    "age": "3y",
+    "weight": "55lbs 1oz",
+    "gender": "Male",
+    "breed": "Hound Mix"
+  },
+  {
+    "id": 5,
+    "name": "Buzz",
+    "img": "https://g.petango.com/photos/1145/7c4ec3c7-de96-4758-af2a-7150df2b6a7f.jpg",
+    "bio": "I’m a curious pup looking for adopters who will commit to continuing my puppy education and socialization. Ready for a home with snuggles and playtime and lots of puppy-love, I would love to attend puppy socials and meet other young dogs to grow in skills and confidence. Contact the adoption center to get more information about adopting me!",
+    "age": "2m",
+    "weight": "2lbs 3oz",
+    "gender": "Male",
+    "breed": "Mix Terrier, American Pit Bull"
+  },
+  {
+    "id": 6,
+    "name": "Dee",
+    "img": "https://adopt.hssvmil.org/photos//lostfound/140313.jpg",
+    "bio": "Hey! They call me Dee.\nI am very new to the shelter so everyone is still getting to know me, but so far we know I am extremely timid. I spend a lot of my time in my kuranda bed and am slowly acclimating to my room and different people coming in and out of it; some for walks, some for to sit with me and call me handsome while putting treats around me to eat.",
+    "age": "1yr",
+    "weight": "11lbs",
+    "gender": "Female",
+    "breed": "Small Crossbreed"
+  },
+  {
+    "id": 7,
+    "name": "Boodah",
+    "img": "https://adopt.hssvmil.org/photos//lostfound/140365.jpg",
+    "bio": "What should your foster's bio say? Happy, energetic, loving puppy,really playful and loves to chew on toys and play tug of war",
+    "age": "2m",
+    "weight": "11lbs",
+    "gender": "Male",
+    "breed": "Large Cross Breed Mix"
+  }
+]
