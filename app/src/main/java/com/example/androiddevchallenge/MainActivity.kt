@@ -20,13 +20,25 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.*
+import androidx.compose.material.Card
+import androidx.compose.material.Icon
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Scaffold
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Pets
 import androidx.compose.runtime.Composable
@@ -37,7 +49,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.NavType
-import androidx.navigation.compose.*
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.navArgument
+import androidx.navigation.compose.navigate
+import androidx.navigation.compose.rememberNavController
 import com.example.androiddevchallenge.ui.theme.MyTheme
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -66,9 +82,11 @@ class MainActivity : AppCompatActivity() {
             MyTheme {
                 Scaffold(
                     topBar = {
-                        TopAppBar(title = {
-                            Text("Adopt a Pupper")
-                        })
+                        TopAppBar(
+                            title = {
+                                Text("Adopt a Pupper")
+                            }
+                        )
                     }
                 ) {
                     navigationRoot()
@@ -115,7 +133,6 @@ fun PuppyList(navController: NavController) {
                 )
             }
         }
-
     }
 }
 
@@ -176,7 +193,8 @@ fun PuppyDetail(navController: NavController, puppyId: Int?) {
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())
-                .padding(8.dp)) {
+                .padding(8.dp)
+        ) {
             Row(
                 Modifier
                     .fillMaxWidth()
@@ -212,7 +230,7 @@ fun PuppyDetail(navController: NavController, puppyId: Int?) {
     }
 }
 
-//@Preview("Dark Theme", widthDp = 360, heightDp = 640)
+// @Preview("Dark Theme", widthDp = 360, heightDp = 640)
 @Composable
 fun DarkPreview() {
     PuppyData.items.add(
